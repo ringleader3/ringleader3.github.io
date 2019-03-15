@@ -136,9 +136,48 @@
 			<td><a href="sportscenter://x-callback-url/showVideo?videoID=17099454">sportscenter://x-callback-url/showVideo?videoID=17099454</a></td>
 		</tr>
 		<tr>
-			<td>Play a Stream: </td>
+			<td>Play a Stream:<br>(this example goes to the upcoming page<br>for a UFC event, that still exists for some reason)</td>
 			<td><a href="sportscenter://x-callback-url/showWatchStream?playID=05263798-df90-40c0-bd03-a1274768e6cb">sportscenter://x-callback-url/showWatchStream?playID=05263798-df90-40c0-bd03-a1274768e6cb</a></td>
 		</tr>
 	</table>
+	
+	<br>
+	
+	<b>Error Cases</b>
+	<table>
+		<tr>
+			<td>Bad Tab Link</td>
+			<td><a href="sportscenter://x-callback-url/showTab?id=awesomepage">sportscenter://x-callback-url/showTab?id=awesomepage</a></td>
+		</tr>
+		<tr>
+			<td>Bad Network Link</td>
+			<td><a href="sportscenter://x-callback-url/showPage?path=/network/500b1f7c-dad5-33fdsff9-907c-87427babe201">sportscenter://x-callback-url/showPage?path=/network/500b1f7c-dad5-33fdsff9-907c-87427babe201</a></td>
+		</tr>
+		<tr>
+			<td>Bad Sport/League/Conference Link:</td>
+			<td><a href="sportscenter://x-callback-url/showPage?path=/catalog/da404349-63fdsfsd45-48fa-a064-bc6f015aab14">sportscenter://x-callback-url/showPage?path=/catalog/da404349-63fdsfsd45-48fa-a064-bc6f015aab14</a></td>
+		</tr>
+		<tr>
+			<td>Bad Film Link</td>
+			<td><a href="sportscenter://x-callback-url/showPage?path=/film/8a4b7b8d-eca9-488a-8dsadsa7d9-5739391739aa">sportscenter://x-callback-url/showPage?path=/film/8a4b7b8d-eca9-488a-8dsadsa7d9-5739391739aa</a></td>
+		</tr>
+		<tr>
+			<td>Bad Show Link</td>
+			<td><a href="sportscenter://x-callback-url/showPage?path=/series/63a6ade6-a378-4d00-93f9-a788afdsfds60cc820">sportscenter://x-callback-url/showPage?path=/series/63a6ade6-a378-4d00-93f9-a788afdsfds60cc820</a></td>
+		</tr>
+		<tr>
+			<td>Bad Channel Playback Link</td>
+			<td><a href="sportscenter://x-callback-url/showWatchStream?playChannel=theOcho">sportscenter://x-callback-url/showWatchStream?playChannel=theOcho</a></td>
+		</tr>
+		<tr>
+			<td>Bad Vod Playback Link</td>
+			<td><a href="sportscenter://x-callback-url/showVideo?videoID=170993432454">sportscenter://x-callback-url/showVideo?videoID=170993432454</a></td>
+		</tr>
+		<tr>
+			<td>Bad Stream Playback Link</td>
+			<td><a href="sportscenter://x-callback-url/showWatchStream?playID=05263798-df90-40c0-bd03-a1274768fdfe6cb">sportscenter://x-callback-url/showWatchStream?playID=05263798-df90-40c0-bd03-a1274768fdfe6cb</a></td>
+		</tr>
+	</table>
+
 </body>
 </html>
